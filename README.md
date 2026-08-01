@@ -39,7 +39,7 @@ with the approved church email address.
 
 ## GitHub Pages URL
 
-https://jamesrmedina-007.github.io/pan-de-vida-website/
+www.pandevidadenver.com
 
 ## Verify before launch
 
