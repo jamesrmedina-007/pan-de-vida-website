@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10283c">
+  <meta name="description" content="Submit a prayer request to Pan De Vida.">
+  <title>Oración | Pan De Vida UPCI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Pan De Vida Home">
+      <span class="brand-mark image-brand"><img src="logo.jpg" alt="Pan De Vida logo"></span>
+      <span class="brand-copy">
+        <strong>Pan De Vida</strong>
+        <small>Iglesia Pentecostal Unida Int.</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" data-es="Inicio" data-en="Home">Inicio</a><a href="about.html" data-es="Nosotros" data-en="About">Nosotros</a><a href="new-here.html" data-es="Soy Nuevo" data-en="New Here">Soy Nuevo</a><a href="ministries.html" data-es="Ministerios" data-en="Ministries">Ministerios</a><a href="events.html" data-es="Eventos" data-en="Events">Eventos</a><a href="gallery.html" data-es="Galería" data-en="Gallery">Galería</a><a href="watch.html" data-es="En Vivo" data-en="Watch">En Vivo</a><a href="prayer.html" data-es="Oración" data-en="Prayer">Oración</a><a href="giving.html" data-es="Dar" data-en="Give">Dar</a><a href="contact.html" data-es="Contacto" data-en="Contact">Contacto</a>
+    </nav>
+
+    <button id="lang-toggle" class="lang-btn" type="button" aria-label="Switch language">EN</button>
+  </header>
+
+  <main id="main">
+    
+<section class="page-hero">
+  <span class="eyebrow" data-es="No estás solo" data-en="You are not alone">No estás solo</span>
+  <h1 data-es="Envía una petición de oración" data-en="Submit a prayer request">Envía una petición de oración</h1>
+  <p data-es="Comparte lo que te sientas cómodo compartiendo. Nuestro equipo orará contigo."
+     data-en="Share as much or as little as you are comfortable sharing. Our team will pray with you.">
+    Comparte lo que te sientas cómodo compartiendo. Nuestro equipo orará contigo.
+  </p>
+</section>
+
+<section class="section">
+  <form class="form-card" action="https://formsubmit.co/landereyes@yahoo.com" method="POST">
+    <input type="hidden" name="_subject" value="New Prayer Request from Pan De Vida Website">
+    <input type="hidden" name="_next" value="thanks.html">
+    <input type="hidden" name="_captcha" value="false">
+    <div class="form-grid">
+      <label>
+        <span data-es="Nombre" data-en="Name">Nombre</span>
+        <input name="name" autocomplete="name">
+      </label>
+      <label>
+        <span data-es="Correo o teléfono" data-en="Email or phone">Correo o teléfono</span>
+        <input name="contact">
+      </label>
+    </div>
+    <label>
+      <span data-es="Petición de oración" data-en="Prayer request">Petición de oración</span>
+      <textarea name="prayer_request" rows="7" required></textarea>
+    </label>
+    <label class="check-row">
+      <input type="checkbox" name="confidential" value="yes">
+      <span data-es="Mantenga esta petición confidencial, solo para liderazgo pastoral."
+            data-en="Keep this request confidential for pastoral leadership only.">
+        Mantenga esta petición confidencial, solo para liderazgo pastoral.
+      </span>
+    </label>
+    <label class="check-row">
+      <input type="checkbox" name="follow_up" value="yes">
+      <span data-es="Me gustaría que alguien de la iglesia se comunique conmigo."
+            data-en="I would like someone from the church to contact me.">
+        Me gustaría que alguien de la iglesia se comunique conmigo.
+      </span>
+    </label>
+    <button class="btn primary" type="submit" data-es="Enviar petición" data-en="Send request">Enviar petición</button>
+    <p class="form-note"
+       data-es="Todas las peticiones de oración son confidenciales y serán compartidas únicamente con el liderazgo pastoral. Si solicita seguimiento, alguien de nuestro equipo se comunicará con usted."
+       data-en="All prayer requests are confidential and are shared only with pastoral leadership. If you request follow-up, someone from our team will contact you.">
+       Todas las peticiones de oración son confidenciales y serán compartidas únicamente con el liderazgo pastoral.
+    </p>
+  </form>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Pan De Vida Iglesia Pentecostal Unida Internacional</strong>
+      <p>6989 Holly Street<br>Commerce City, CO 80022</p>
+    </div>
+    <div class="footer-links">
+      <a href="new-here.html" data-es="Soy Nuevo" data-en="New Here">Soy Nuevo</a>
+      <a href="prayer.html" data-es="Petición de Oración" data-en="Prayer Request">Petición de Oración</a>
+      <a href="giving.html" data-es="Dar" data-en="Give">Dar</a>
+      <a href="gallery.html" data-es="Galería" data-en="Gallery">Galería</a><a href="watch.html" data-es="Ver en Vivo" data-en="Watch Live">Ver en Vivo</a>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/PanDeVidaIglesiaPentecostalUnida/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/pandevidaupci/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/@pdvradioint" target="_blank" rel="noopener">YouTube</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Pan De Vida UPCI</p>
+  </footer>
+</body>
+</html>

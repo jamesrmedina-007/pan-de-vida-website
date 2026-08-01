@@ -39,7 +39,7 @@ with the approved church email address.
 
 ## GitHub Pages URL
 
-www.pandevidadenver.com
+https://jamesrmedina-007.github.io/pan-de-vida-website/
 
 ## Verify before launch
 
@@ -59,3 +59,6 @@ Version 4 adds:
 - Prayer form connected to landereyes@yahoo.com
 
 Social platforms may change how embeds display. Direct buttons remain available if an embed is blocked.
+
+
+Version 5 adds the official logo and local church photography throughout the homepage and gallery.
